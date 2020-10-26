@@ -1,51 +1,46 @@
 body {
-    margin: 0;
-    background-color: #000;
-    color: white;
     font-family: sans-serif;
+    margin: 0;
 }
 
-div#content {
-    position: relative;
-    width: 0;
-    margin: 0 auto;
-    transform: rotateY(0deg);
-    transition: transform 1s ease;
+.bigtext {
+    font-size: 10em;
 }
 
-#content.flip {
-    transform: rotateY(180deg);
-}
-
-div.coin {
-    position: absolute;
-    top: 25vh;
-    left: -15vw;    
+.center-text {
     text-align: center;
-    font-size: 9vw;
-    transition: z-index 1s ease;
-    width: 30vw;
-    height: 30vw;
-    border-radius: 100vw;
+    vertical-align: middle;
 }
 
-#coin-front {
-    z-index: 10;
-    background-color: white;
-    color: black;
+#banner {
 }
 
-#coin-back {
-    z-index: -10;
-    transform: scaleX(-1);
-    background-color: greenyellow;
-    color: black;
+#banner h1 {
+    font-weight: 200;
 }
 
-#content .front {
-    z-index: 10;
+#presentation {
+    font-size: 2em;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2.5em;
 }
 
-#content .back {
-    z-index: -10;
+.project h2 {
+    font-size: 3em;
+}
+
+.project p {
+    font-size: 1.5em;
+}
+
+.project img {
+    width: 40%;
+}
+
+#footer {
+    background-color: #777;
+    padding: 0.5em 2.5em;
+    color: #fff;
+    margin: 5em 0 0 0;
 }

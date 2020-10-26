@@ -26,6 +26,17 @@ body {
     padding: 2.5em;
 }
 
+#projects {
+    margin: 0 auto;
+}
+
+.project {
+    width: 80%;
+    margin: 0 auto 5em auto;
+    border-radius: 1em;
+    border: 1px solid #aaa;
+}
+
 .project h2 {
     font-size: 3em;
 }
@@ -35,7 +46,7 @@ body {
 }
 
 .project img {
-    width: 40%;
+    width: 50%;
 }
 
 #footer {

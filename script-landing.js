@@ -4,7 +4,10 @@ function coinClick() {
     var cb = document.getElementById('coin-back');
 
     if(elem.classList.contains('flip')) {
-        window.location.href = 'home.html';
+        setTimeout(function () {
+            window.location.href = 'home.html';
+        }, 300);
+        document.getElementById('overlay').classList.add('flash');
     } else {
         elem.classList.add('flip');
         cf.classList.add('back');

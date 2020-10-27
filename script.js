@@ -1,5 +1,5 @@
 function loaded() {
     setTimeout(function () {
-        document.getElementById('fade-overlay').classList.remove('colored');
-    }, 200);
+        document.getElementById('container').classList.remove('blur');
+    }, 100);
 }
